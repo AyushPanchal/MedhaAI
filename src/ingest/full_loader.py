@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 from pathlib import Path
 
 
-def download_pdf(url: str, save_dir: str = "src/ingest/pdfs/") -> str:
+def download_pdf(url: str, save_dir: str = "././pdfs/") -> str:
     os.makedirs(save_dir, exist_ok=True)
     filename = url.split("/")[-1]
     local_path = os.path.join(save_dir, filename)
