@@ -10,6 +10,7 @@ while True:
     print(f"\n🧠 Intent: {result['intent']}")
     print(f"📤 Answer: {result['answer']}")
 
-# hello who are you ?
-# who is the hod ?
-# list down all her research interests
+# hello, who are you?
+# Who is the hod ?
+# list down all of her research interests
+# who was the hod before her ?
